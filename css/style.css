@@ -125,12 +125,13 @@ ul {
 
 /* ============ HOME ========== */
 .home__container {
-  gap: 1rem;
+  height: 100vh;
+  padding: 20px 0;
 }
 
 .home__content {
   grid-template-columns: 1fr;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   align-items: center;
 }
 
@@ -148,7 +149,7 @@ ul {
 }
 
 .home__data {
-  grid-column: 1/2;
+  /* grid-column: 1/2; */
   padding: 10px 0;
 }
 
