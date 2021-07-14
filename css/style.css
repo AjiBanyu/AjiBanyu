@@ -26,7 +26,7 @@ ul {
 
 /* ======== SECTION ======== */
 .section {
-  padding: 2rem 0 4rem;
+  padding: 3rem 0 3rem;
 }
 
 .section__title {
@@ -126,7 +126,7 @@ ul {
 /* ============ HOME ========== */
 .home__container {
   /* height: 100vh; */
-  padding-top: 2.75rem;
+  /* padding-top: 2.75rem; */
 }
 
 .home__content {
@@ -196,4 +196,26 @@ ul {
 
 .about__description {
   text-align: center;
+}
+
+/* ========= SKILSS ========= */
+.skills__container {
+  row-gap: 0;
+}
+
+.skills__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+
+.skills__icon,
+.skills__arrow {
+  font-size: 1.5rem;
+}
+
+.skills__title {
+  margin: 0;
 }
