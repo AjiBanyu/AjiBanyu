@@ -55,7 +55,7 @@ ul {
 
 .grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .l-header {
@@ -207,15 +207,95 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
 
 .skills__icon,
 .skills__arrow {
   font-size: 1.5rem;
+  color: hsl(250, 69%, 61%);
 }
 
 .skills__title {
   margin: 0;
+  font-size: 1.25rem;
+}
+
+.skills__subtitle {
+  font-size: 0.813rem;
+  color: hsl(250, 8%, 65%);
+}
+
+.skills__titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.skills__list {
+  padding-left: 2.7rem;
+}
+
+.skills__name {
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+
+.skills__bar,
+.skills__percentage {
+  height: 10px;
+  border-radius: 0.25rem;
+}
+
+.skills__bar {
+  background-color: hsl(250, 8%, 65%);
+}
+
+.skills__percentage {
+  display: block;
+  background-color: hsl(250, 69%, 61%);
+}
+
+.skills__html {
+  width: 90%;
+}
+
+.skills__css {
+  width: 80%;
+}
+
+.skills__js {
+  width: 60%;
+}
+
+.skills__react {
+  width: 85%;
+}
+
+.skills__php {
+  width: 80%;
+}
+
+.skills__node {
+  width: 40%;
+}
+
+.skills__firebase {
+  width: 30%;
+}
+
+.skills__close .skills__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: 2.5rem;
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg);
 }
