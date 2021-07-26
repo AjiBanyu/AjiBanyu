@@ -63,9 +63,47 @@ ul {
   position: fixed;
   top: 0;
   /* background-color: #f8af2d; */
-  background-color: #f8f3ea;
+  background-color: #fff;
   z-index: 100;
   /* border: 1px solid; */
+}
+
+/* show shadow header scroll */
+.shadow-header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* button scroll top */
+.scroll__top {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  transition: 0.4s;
+  visibility: hidden;
+  background-color: hsl(250, 69%, 61%);
+}
+
+.scroll__top:hover {
+  background-color: hsl(250, 57%, 53%);
+}
+
+.scrolltop__icon {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* show scroll-top */
+.show__scroll {
+  visibility: visible; /* agar menampilkan scroll yang sudah di hidden */
+  bottom: 2rem;
 }
 
 /* ========= NAV ======= */

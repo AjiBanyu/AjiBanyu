@@ -46,6 +46,35 @@ skillsHeader.forEach((el) => {
     el.addEventListener('click', toggleSkills)
 })
 
+/* ================ action shadow header scroll =========== */
+function shadowHeader(){
+    const scrollHeader = document.getElementById('header'),
+    scrollY = window.pageYOffset;
+
+    if (this.scrollY >= 74) {
+        scrollHeader.classList.add('shadow-header')
+    } else {
+        scrollHeader.classList.remove('shadow-header')
+    }
+}
+
+window.addEventListener('scroll', shadowHeader)
+
+/* ================ action show scroll top ================ */
+function scrollTop(){
+    const scrollTop = document.getElementById('scroll-top'),
+    // variabel scrollY untuk menetukan tinggi halaman ketika di scroll 
+    scrollY = window.pageYOffset; 
+
+
+    if (this.scrollY >= 560) {
+        scrollTop.classList.add('show__scroll')
+    } else{
+        scrollTop.classList.remove('show__scroll')
+    }
+}
+
+window.addEventListener('scroll', scrollTop);
 
  // untuk sidebar animation X
 
