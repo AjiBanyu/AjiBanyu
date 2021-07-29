@@ -1,244 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- ========== SCROLL TOP BUTTON ========= -->
     <a href="#" class="scroll__top" id="scroll-top">
-        <i class="uil uil-angle-up scrolltop__icon"></i>
+      <i class="uil uil-angle-up scrolltop__icon"></i>
     </a>
     <!-- Bagian Header-->
     <header class="l-header" id="header">
-        <nav class="nav container">
-            <div class="logo">
-                <h3><a href="#home">PAMUNGKAS</a></h3>
-            </div>
+      <nav class="nav container">
+        <div class="logo">
+          <h3><a href="#home">PAMUNGKAS</a></h3>
+        </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list" id="nav-list">
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a> </li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#qualification" class="nav__link">Qualification</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
-                </ul>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list" id="nav-list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">Qualification</a>
+            </li>
+            <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
 
-            </div>
-
-            <div class="nav__input" id="nav-input">
-                <!-- <input type="checkbox" class="nav__input" id="nav-input"> -->
-                <i class="uil uil-bars"></i>
-            </div>
-        </nav>
+        <div class="nav__input" id="nav-input">
+          <!-- <input type="checkbox" class="nav__input" id="nav-input"> -->
+          <i class="uil uil-bars"></i>
+        </div>
+      </nav>
     </header>
     <!-- Tutup Header-->
 
     <main class="main">
-        <!-- ============ HOME ============ -->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__content">
-                    <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+      <!-- ============ HOME ============ -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <image class="home__blob-img" x="-110" xlink:href="img/my_photo.png"/>
-                            </g>
-                        </svg>
-                    </div>
-                    <div class="home__data">
-                        <h1 class="home__title">Hi, I'am Aji Banyu</h1>
-                        <h3 class="home__subtitle">Frontend developer</h3>
-                        <p class="home__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p> 
-                        <a href="#contact" class="button button--flex">
-                            Contact Me <i class="uil uil-message button-icon"></i>
-                        </a>
-                    </div>
-                </div>
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-110"
+                    xlink:href="img/my_photo.png"
+                  />
+                </g>
+              </svg>
             </div>
-        </section>
-
-        <!-- ============== ABOUT =============== -->
-        <section class="about section" id="about">
-            <h1 class="section__title">About Me</h1>
-            <h2 class="section__subtitle">My Introduction</h2>
-
-            <div class="about__container container grid">
-                <img src="img/my_photo.jpg" alt="" class="about__img">
-
-                <div class="about__data">
-                    <p class="about__description">Web developer, with extensive knowledge and years of experience, working in web technologies and UI/UX design, delivering quality work</p>
-                </div>
-                <div class="about__button">
-                    <a download="" href="" class="button button--flex">
-                        Download CV
-                        <i class="uil uil-download-alt button-icon"></i>
-                    </a>
-                </div>
-            </div>  
-        </section>
-
-        <!-- ================ SKILLS ================ -->
-        <section class="skills section" id="skills">
-            <h1 class="section__title">Skills</h1>
-            <h2 class="section__subtitle">My technical level</h2>
-
-            <div class="skills__container container grid">
-                <!-- ============ SKILLS 1 ============ -->
-                <div class="skills__content skills__open">
-                    <div class="skills__header">
-                        <i class="uil uil-brackets-curly skills__icon"></i>
-
-                        <div>
-                            <h1 class="skills__title">FrontEnd developer</h1>
-                            <span class="skills__subtitle">More than 4 years</span>
-                        </div>
-
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-
-                    <div class="skills__list grid">
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">HTML</h3>
-                                <span class="skilss__number">90%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__html"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSS</h3>
-                                <span class="skilss__number">80%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__css"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">JavaScript</h3>
-                                <span class="skilss__number">60%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__js"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">React</h3>
-                                <span class="skilss__number">85%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__react"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ============ SKILLS 2 ================= -->
-                <div class="skills__content skills__close">
-                    <div class="skills__header">
-                        <i class="uil uil-server-network skills__icon"></i>
-
-                        <div>
-                            <h1 class="skills__title">Backend developer</h1>
-                            <span class="skills__subtitle">More than 2 years</span>
-                        </div>
-
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-                    <div class="skills__list grid">
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">PHP</h3>
-                                <span class="skilss__number">80%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__php"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Node Js</h3>
-                                <span class="skilss__number">40%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__node"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Firebase</h3>
-                                <span class="skilss__number">30%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__firebase"></span>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'am Aji Banyu</h1>
+              <h3 class="home__subtitle">Frontend developer</h3>
+              <p class="home__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button-icon"></i>
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- ================ QUALIFICATION TABS ================= -->
-        <section class="qualification section" id="qualification">
-            <h1 class="section__title">Qualification</h1>
-            <h2 class="section__subtitle">My Personal Journey</h2>
+      <!-- ============== ABOUT =============== -->
+      <section class="about section" id="about">
+        <h1 class="section__title">About Me</h1>
+        <h2 class="section__subtitle">My Introduction</h2>
 
-            <div class="qualification__container container">
-                <div class="qualification__content">
-                    <img src="img/my_photo.jpg" alt="" class="qualification__img">
-                    <div class="content">
+        <div class="about__container container grid">
+          <img src="img/my_photo.jpg" alt="" class="about__img" />
 
-                        <span class="section__subtitle">Aji Banyu</span>
-                        <p class="qualification__description">1.5k followers</p>
-                    </div>
-                </div>
+          <div class="about__data">
+            <p class="about__description">
+              Web developer, with extensive knowledge and years of experience,
+              working in web technologies and UI/UX design, delivering quality
+              work
+            </p>
+          </div>
+          <div class="about__button">
+            <a download="" href="" class="button button--flex">
+              Download CV
+              <i class="uil uil-download-alt button-icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ SKILLS ================ -->
+      <section class="skills section" id="skills">
+        <h1 class="section__title">Skills</h1>
+        <h2 class="section__subtitle">My technical level</h2>
+
+        <div class="skills__container container grid">
+          <!-- ============ SKILLS 1 ============ -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">FrontEnd developer</h1>
+                <span class="skills__subtitle">More than 4 years</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
             </div>
-        </section>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skilss__number">90%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__html"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skilss__number">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__css"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">JavaScript</h3>
+                  <span class="skilss__number">60%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__js"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">React</h3>
+                  <span class="skilss__number">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__react"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ============ SKILLS 2 ================= -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-server-network skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Backend developer</h1>
+                <span class="skills__subtitle">More than 2 years</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">PHP</h3>
+                  <span class="skilss__number">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__php"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Node Js</h3>
+                  <span class="skilss__number">40%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__node"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Firebase</h3>
+                  <span class="skilss__number">30%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__firebase"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ QUALIFICATION TABS ================= -->
+      <section class="qualification section" id="qualification">
+        <h1 class="section__title">Qualification</h1>
+        <h2 class="section__subtitle">My Personal Journey</h2>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs qualification__active" data-target="#education">
+              <div class="qualification__button button--flex">
+                  <i class="uil uil-graduation-cap qualification-icon"></i>
+                  Education
+              </div>
+
+              <div class="qualification__button button--flex" data-target="#work">
+                  <i class="uil uil-briefcase-alt qualification-icon"></i>
+                  Work
+              </div>
+          </div>
+
+          <div class="qualification__section">
+            <!-- ================ QUALIFICATION CONTENT 1================= -->
+              <div class="qualification__content qualification__active" data-content id="education">
+                  <!-- ================ QUALIFICATION 1 ================= -->
+                  <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Primary School</h3>
+                        <span class="qualification__subtitle">SDN Duren Jaya XI Bekasi</span>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2000-2006
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                  </div>
+                  <!-- ================ QUALIFICATION 2 ================= -->
+                  <div class="qualification__data">
+                      <div></div>
+                      
+                      <div>
+                          <span class="qualification__rounder"></span>
+                          <span class="qualification__line"></span>
+                      </div>
+
+                    <div>
+                        <h3 class="qualification__title">Junior High School</h3>
+                        <span class="qualification__subtitle">MTsN 1 Kota Bekasi</span>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2007-2010
+                        </div>
+                    </div>
+
+                  </div>
+                  <!-- ================ QUALIFICATION 3 ================= -->
+                  <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Senior High School</h3>
+                        <span class="qualification__subtitle">SMK Karya Guna 1 Bekasi</span>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2010-2013
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                  </div>
+                  <!-- ================ QUALIFICATION 4 ================= -->
+                  <div class="qualification__data">
+                    <div></div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                    </div>
+
+                    <div>
+                        <h3 class="qualification__title">Studying</h3>
+                        <span class="qualification__subtitle">STMIK Pranata Indonesia</span>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2018-2021
+                        </div>
+                    </div>
+
+                  </div>
+              </div>
+
+              <!-- ================ QUALIFICATION CONTENT 1================= -->
+              <div class="qualification__content" data-content id="work">
+                  <!-- ================ QUALIFICATION 1 ================= -->
+                  <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Courier</h3>
+                        <span class="qualification__subtitle">PT Tiki Jalur Nugraha Ekakurir</span>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2015-2016
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                  </div>
+                  <!-- ================ QUALIFICATION 2 ================= -->
+                  <div class="qualification__data">
+                      <div></div>
+                      
+                      <div>
+                          <span class="qualification__rounder"></span>
+                          <span class="qualification__line"></span>
+                      </div>
+
+                    <div>
+                        <h3 class="qualification__title">Operator</h3>
+                        <span class="qualification__subtitle">PT Multikarya Sinardinamika</span>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2016-2017
+                        </div>
+                    </div>
+
+                  </div>
+                  <!-- ================ QUALIFICATION 3 ================= -->
+                  <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Toolman</h3>
+                        <span class="qualification__subtitle">SMK Karya Guna 1 Bekasi</span>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2017-2021
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
     </main>
+  </body>
+  <script src="js/script.js"></script>
 
-
-
-</body>
-<script src="js/script.js"></script>
-
-<script>
-
-</script>
-
+  <script></script>
 </html>

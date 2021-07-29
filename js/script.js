@@ -14,6 +14,8 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-input','nav-menu')
 
+
+/* ============ remove side bar menu ============== */
 const navLink = document.querySelectorAll('.nav__link');
 
 function linkAction(){
@@ -75,6 +77,31 @@ function scrollTop(){
 }
 
 window.addEventListener('scroll', scrollTop);
+
+
+
+/* ============== action qualification tabs ================ */
+const tabs = document.querySelectorAll('[data-target]'),
+        tabContents = document.querySelectorAll('[data-content]');
+
+tabs.forEach(tab =>{
+    tab.addEventListener('click', ()=>{
+        const target = document.querySelector(tab.dataset.target);
+
+        tabContents.forEach(tabContent => {
+            tabContent.classList.add('qualification__active');
+        })
+
+        target.classList.remove('qualification__active');
+
+        tab.forEach(tab => {
+            tab.classList.remove('qualification__active');
+        })
+
+        target.classList.add('qualification__active')
+    })
+})
+
 
  // untuk sidebar animation X
 
